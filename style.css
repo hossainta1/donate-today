@@ -132,3 +132,124 @@ body {
     padding-bottom: 5%;
     color: #707070;
 }
+.plan-category {
+    display: flex;
+    text-align: left;
+}
+
+#first {
+    margin-left: 140px;
+}
+
+.food {
+    width: 25%;
+    height: 300px;
+    background-color: #4f9da642;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.shelter {
+    width: 25%;
+    height: 300px;
+    background-color: #ff59592d;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.education {
+    width: 25%;
+    height: 300px;
+    background-color: #fff4d6;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.food>img,
+.shelter>img,
+.education>img {
+    width: 15%;
+    padding-top: 65px;
+    padding-left: 20px;
+}
+
+.food>h2,
+.shelter>h2,
+.education>h2 {
+    font-size: 1.6rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.food>p,
+.shelter>p,
+.education>p {
+    font-size: 0.8rem;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.get-me-update {
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.get-me-update>h1 {
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 5%;
+}
+
+.get-me-update>p {
+    color: #707070;
+    padding-bottom: 50px;
+}
+
+.subscribe-area {
+    width: 70%;
+    height: 200px;
+    background-color: #FFF4D6;
+    margin-left: 200px;
+}
+
+#email-btn {
+    margin-top: 85px;
+    padding: 7px 30px;
+    font-size: 1.1rem;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    outline: none;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#subscribe {
+    margin-top: 85px;
+    margin-left: -5px;
+    font-size: 1.1rem;
+    padding: 7px 20px;
+    background-color: #FF5959;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #0B0D17;
+}
+
+footer>h1 {
+    color: #FF5959;
+    padding-top: 50px;
+}
+
+footer>p {
+    color: #bdbec1;
+    padding-top: 20px;
+}
