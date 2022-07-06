@@ -16,3 +16,119 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
 }
+.rectangle {
+    width: 100%;
+    height: 609px;
+    background-image: url(images/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+.rectangle>h1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 15%;
+    letter-spacing: 0.5px;
+}
+
+.rectangle>p {
+    letter-spacing: 0.7px;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+
+.donate-now {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+.donate-today {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
+
+.donate-today>h1 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 10%;
+    letter-spacing: 0.5px;
+}
+
+.donate-today>p {
+    letter-spacing: 0.7px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: #707070;
+}
+
+.donate-amount {
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.donate-amount>a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #707070;
+    margin-left: 15px;
+    padding: 20px 20px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+}
+
+#active {
+    margin-left: 25.4%;
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+#amount {
+    padding: 10px 200px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+}
+
+#donate-btn {
+    display: block;
+    margin: 30px auto;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.donation-plan {
+    width: 100%;
+    height: 670px;
+    text-align: center;
+}
+
+.donation-plan>h1 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 10%;
+    letter-spacing: 0.5px;
+}
+
+.donation-plan>p {
+    letter-spacing: 0.7px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: #707070;
+}
